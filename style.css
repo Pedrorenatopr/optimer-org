@@ -430,4 +430,119 @@
     padding-top: 20px;
     color: #91ADBA;
   }
+
+  .titulo-cliente {
+    color: #EA6400;
+    font-size: 48px;
+    font-weight: 600;
+    padding-left: 360px;
+  }
+
+  .card-cliente {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 50px;
+  }
+
+  .cartao-cliente {
+    background-image: linear-gradient(180deg, #ffb9901d, rgba(0, 0, 0, 0));
+    padding: 2.5em;
+    border-radius: 40px;
+    height: 370px;
+    width: 364px;
+  }
+
+  .comentario-cliente {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 1em;
+  }
+
+  .texto-cliente {
+    width: 284px;
+    color: #CDCDCD;
+    padding-top: 1em;
+    line-height: 1.5em;
+    border-bottom: solid 0.1px rgba(255, 123, 0, 0.256);
+    padding-bottom: 1em;
+  }
+
+  .nome-cliente {
+    line-height: 2em;
+    padding-top: 1em;
+  }
+
+  .contato {
+    padding-top: 200px;
+
+  }
+
+  .texto-contato {
+    padding-left: 380px;
+    color: #EA6400;
+    font-size: 48px;
+    font-weight: 600;
+    padding-left: 370px;
+    line-height: 2em;
+  }
+
+  .card-contato {
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    padding-top: 1em;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    border-bottom: solid 0.1px rgba(255, 123, 0, 0.256);
+    border-top: solid 0.1px rgba(255, 123, 0, 0.256);
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+
+  }
+
+  .texto-footer {
+    font-size: 35px;
+    font-weight: 200;
+    line-height: 2em;
+  }
+
+  .legenda-footer {
+    width: 330px;
+    line-height: 1.5em;
+    color: #CDCDCD;
+  }
+
+  .redes {
+    padding-top: 1em;
+    display: flex;
+    gap: 10px;
+  }
+
+  .lista-footer a {
+    color: white;
+    line-height: 2em;
+  }
+
+  .destaque-footer {
+    font-size: 35px;
+    font-weight: 200;
+    line-height: 2em;
+  }
+
+  .copy {
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
   
