@@ -254,22 +254,25 @@
 
   .img-servico {
     padding: 2px;
+    margin-bottom: 1em;
     background-color: #ffffff;
     border-radius: 100%;
   }
 
   .titulo-servico {
-    font-weight: 600;
+    font-weight: 200;
     width: 100%;
+    color: white;
+    font-size: 24px;
   }
 
   .card-servico p{
-    color: white;
     text-align: center;
 
   }
 
   .texto-servico {
+    color: #CDCDCD;
     max-width: 350px;
     line-height: 1.5em;
   }
@@ -490,7 +493,7 @@
   .card-contato {
     display: flex;
     justify-content: center;
-    gap: 250px;
+    gap: 380px;
     padding-top: 1em;
   }
 
@@ -546,3 +549,337 @@
     padding-left: 30px;
   }
   
+
+  @media screen and (max-device-width: 1000px) {
+
+    .menu-lista {
+      display: none;
+    }
+
+    .bt-um {
+      display: none;
+    }
+
+    nav {
+      display: none;
+    }
+
+    .section-um {
+      display: grid;
+      align-items: center;
+      padding-left: 0;
+    }
+
+    .titulo-um {
+      font-size: 28px;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    .texto-um {
+      font-size: 16px;
+      width: 100%;
+      line-height: 1.2em;
+      text-align: center;
+    }
+
+    .botoes {
+      display: flex;
+      gap: 1em;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .bt-dois {
+      border: solid 1px white;
+      padding: 20px;
+      width: 235px;
+      text-align: center;
+      color: white;
+      border-radius: 100px;
+      background: linear-gradient(45deg, #ff191900, #E27815, #f94a3300, #E27815);
+      background-size: 400% 200%;
+      transition: background 1.5s cubic-bezier(0.5, 0.1, 0.4, 0.9);
+      animation: 3.5s ease-in infinite brilho;
+    }
+
+    .bt-saiba-mais {
+      display: none;
+    }
+
+    .img-principal {
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 400px;
+      height: 400px;
+    }
+
+    .section-dois {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      gap: 10px;
+      justify-content: center;
+      margin-top: 0;
+      padding-top: 30px;
+      width: 100%;
+      margin-left: 0;
+      padding-bottom: 30px;
+    }
+
+    .section-tres {
+      display: block;
+      position: relative;
+      align-items: center;
+      justify-content: center;
+      padding-top: 100px;
+      gap: 20px;
+    }
+
+    .texto-tres {
+      border-bottom: solid 0.1px rgba(255, 123, 0, 0.571);
+      padding-bottom: 50px;
+      height: 400px;
+    }
+
+    .img-section-tres {
+      width: 350px;
+      padding-top: 40px;
+      margin-left: 20px;
+    }
+
+    .titulo-tres {
+      font-size: 28px;
+      margin-left: 10px;
+    }
+
+    .sub-titulo-tres {
+      font-size: 18px;
+      margin-left: 10px;
+    }
+
+    .texto-principal-tres {
+      font-size: 14px;
+      line-height: 1.3em;
+      max-width: 300px;
+      margin-left: 10px;
+    }
+
+    .clientes {
+      padding-top: 50px;
+    }
+
+    .titulo-servico-laranja {
+      padding-top: 50px;
+      font-size: 28px;
+    }
+    
+    .legenda-servico-branco {
+      text-align: center;
+      margin-top: -20px;
+    }
+
+    .servico {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding-top: 50px;
+      grid-template-columns: 90%;
+      gap: 2em;
+    }
+
+    .texto-servico {
+      color: #CDCDCD;
+      max-width: 350px;
+      line-height: 1.5em;
+      font-size: 12px;
+    }
+
+    .suporte {
+      display: grid;
+      padding-top: 0px;
+    }
+    
+    .card-suporte {
+      width: 380px;
+      margin-top: 100px;
+      border-radius: 40px;
+      background-image: linear-gradient(180deg, #ffb9901d, rgba(0, 0, 0, 0));
+    }
+    
+    .texto-suporte {
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      overflow: hidden;
+      margin-top: 100px;
+      text-align: center;
+    }
+
+    .titulo-suporte {
+      font-size: 24px;  
+    }
+
+    .legenda-suporte {
+      line-height: 1.5em;
+      color: #b8b8b8;
+      width: 340px;
+      font-size: 14px;
+    }
+
+    .img-suporte {
+      display: none;
+    }
+
+    .bt-suporte {
+      display: block;
+      margin-left: 60px;
+      border: solid 1px white;
+      padding: 20px;
+      width: 243px;
+    }
+
+    .sobre {
+      padding-top: 50px;
+    }
+
+    .card-sobre {
+      display: grid;
+      gap: 50px;
+    }
+
+    .img-sobre {
+      padding-right: 0px;
+      text-align: center;
+    }
+
+    .img-iphone {
+      width: 380px;
+    }
+
+    .texto-sobre {
+      padding-right: 50px;
+      margin-left: 50px;
+      padding-top: 0;
+    }
+
+    .titulo-sobre {
+      color: #EA6400;
+      font-size: 42px;
+      font-weight: 600;
+    }
+
+    .legenda-sobre {
+      line-height: 1.5em;
+      color: #CDCDCD;
+    }
+
+    .icones-sobre {
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .card-icone-sobre {
+
+    }
+    
+    .texto-icone-sobre {
+      width: 100%;
+      font-size: 12px;
+    }
+
+    .icone-d {
+      margin-left: -35px;
+    }
+
+
+    .blog {
+      background-color: #EA6400;
+      padding-top: 100px;
+      height: 2000px;
+      margin-top: 100px;
+    }
+
+    .texto-blog {
+      display: grid;
+      padding-left: 0;
+      padding-right: 20px;
+      gap: 10px;
+    }
+
+    .titulo-blog {
+      font-size: 32px;
+      font-weight: 200;
+      padding-right: 0;
+    }
+
+    .card-blog {
+      display: grid;
+      justify-content: center;
+      gap: 60px;
+      padding-top: 50px;
+    }
+
+    .img-blog {
+      width: 340px;
+
+    }
+
+    .titulo-cliente {
+      font-size: 32px;
+      font-weight: 600;
+      padding-left: 20px;
+    }
+
+    .card-cliente {
+      display: grid;
+      justify-content: center;
+      gap: 150px;
+      padding-top: 50px;
+    }
+
+    .contato {
+      padding-top: 150px;
+  
+    }
+  
+    .texto-contato {
+      font-size: 32px;
+      padding-left: 20px;
+    }
+  
+    .card-contato {
+      display: grid;
+      justify-content: center;
+      gap: 50px;
+      padding-top: 1em;
+    }
+
+    .mapa {
+      padding-left: 10px;
+    }
+
+    footer {
+      display: grid;
+      justify-content: center;
+      gap: 60px;
+      border-bottom: solid 0.1px rgba(255, 123, 0, 0.256);
+      border-top: solid 0.1px rgba(255, 123, 0, 0.256);
+      margin-top: 100px;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      padding-left: 20px;
+  
+  
+    }
+
+
+
+
+
+
+    
+  }
