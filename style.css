@@ -876,6 +876,19 @@
   
     }
 
+    .copy {
+      display: grid;
+      justify-content: left;
+      font-size: 10px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      padding-right: 0;
+      padding-left: 20px;
+      gap: 5px;
+    }
+
+    
+
 
 
 
