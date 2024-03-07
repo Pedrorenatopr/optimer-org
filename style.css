@@ -38,7 +38,7 @@
     color: #FF6C19;
     border: none;
     background: none;
-    padding-right: 10px;
+    padding-right: 0;
   }
 
   .material-icons.md-48 {
@@ -657,7 +657,7 @@
     .img-principal {
       background-repeat: no-repeat;
       background-position: center;
-      width: 400px;
+      width: 380px;
       height: 400px;
     }
 
