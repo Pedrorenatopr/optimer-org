@@ -5,15 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Optimer</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <nav>
-        <a href=""><div class="logo"><img src="logo.svg" alt=""></div></a>
-        <ul class="menu-lista">
-            <li><a href="">Home</a></li>
-            <li><a href="">Sobre nós</a></li>
-            <li><a href="">Serviços</a></li>
-            <li><a href="">contato</a></li> 
+        <a href=""><div class="logo"><img class="logo" src="logo.svg" alt=""></div></a>
+
+        <div class="icones">
+            <button class="botao"><span id="burguer" class="material-icons md-48" onclick="clickMenu()" >menu</span></button>
+        </div>
+
+        <ul class="menu-lista" id="itens">
+            <li><a class="menu-item" href="">Home</a></li>
+            <li><a class="menu-item" href="">Sobre nós</a></li>
+            <li><a class="menu-item" href="">Serviços</a></li>
+            <li><a class="menu-item" href="">contato</a></li> 
         </ul>
         <a class="bt-um" href="">ENTRE EM CONTATO</a>
     </nav>
@@ -306,6 +312,25 @@
         <p>Copyright © 2024 Optimer Contabilidade</p>
         <p>Design THRUST MARKETING</p>
     </div>
+
+    <script>
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 1000) {
+                itens.style.display = 'flex'
+            } else {
+                itens.style.display = 'none' 
+            }
+        }
+
+        function clickMenu() {
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 
 
     
