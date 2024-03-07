@@ -657,7 +657,7 @@
     .img-principal {
       background-repeat: no-repeat;
       background-position: center;
-      width: 380px;
+      width: 350px;
       height: 400px;
     }
 
@@ -665,7 +665,7 @@
       display: flex;
       align-items: center;
       text-align: center;
-      gap: 10px;
+      gap: 5px;
       justify-content: center;
       margin-top: 0;
       padding-top: 30px;
