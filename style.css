@@ -413,6 +413,20 @@
     padding-right: 50px;
   }
 
+  .texto-ver-mais {
+    width: 350px;
+    padding-top: 10px;
+  }
+
+  .bt-ver-mais {
+    color: #91ADBA;
+    background: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding-top: 10px;
+
+  }
+
   .bt-blog {
     display: block;
     border: solid 1px white;
