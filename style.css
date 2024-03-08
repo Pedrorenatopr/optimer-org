@@ -880,10 +880,33 @@
     }
 
     .card-cliente {
-      display: grid;
-      justify-content: center;
-      gap: 150px;
+      justify-content: flex-start;
+      overflow-x: scroll;
+      gap: 10px;
       padding-top: 50px;
+      width: 100%;
+      padding-left: 20px;
+    }
+
+    .card-cliente::-webkit-scrollbar {
+      display: none;
+    }
+
+    .cartao-cliente {
+      background-image: linear-gradient(180deg, #ffb9901d, rgba(0, 0, 0, 0));
+      padding: 2.5em;
+      border-radius: 40px;
+      height: 370px;
+      width: 344px;
+    }
+
+    .texto-cliente {
+      width: 244px;
+      color: #CDCDCD;
+      padding-top: 1em;
+      line-height: 1.5em;
+      border-bottom: solid 0.1px rgba(255, 123, 0, 0.256);
+      padding-bottom: 1em;
     }
 
     .contato {
