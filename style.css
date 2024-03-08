@@ -615,6 +615,8 @@
 
     nav {
       display: block;
+      position: fixed;
+      background-color: black;
       padding-top: 10px;
       border-bottom: solid 0.1px rgba(255, 123, 0, 0.256);
       padding-bottom: 20px;
@@ -627,7 +629,7 @@
       display: grid;
       align-items: center;
       padding-left: 0;
-      padding-top: 20px;
+      padding-top: 120px;
     }
 
     .titulo-um {
@@ -699,7 +701,6 @@
 
     .section-tres {
       display: block;
-      position: relative;
       align-items: center;
       justify-content: center;
       padding-top: 100px;
