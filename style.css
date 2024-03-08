@@ -136,10 +136,10 @@
   }
 
   .texto-um {
-    font-size: 20px;
+    font-size: 18px;
     max-width: 600px;
     line-height: 1.5em;
-    color: var(--cor-branco);
+    color: #CDCDCD;
   }
 
   .botoes {
@@ -160,10 +160,8 @@
     text-align: center;
     color: white;
     border-radius: 100px;
-    background: linear-gradient(45deg, #ff191900, #E27815, #f94a3300, #E27815);
-    background-size: 400% 200%;
-    transition: background 1.5s cubic-bezier(0.5, 0.1, 0.4, 0.9);
-    animation: 3.5s ease-in infinite brilho;
+    background-color: #EA6400;
+
   }
 
   .bt-saiba-mais {
@@ -195,6 +193,7 @@
     color: white;
     padding-top: 20px;
   }
+
   
   .section-dois :hover {
     transform: scale(1.1);
@@ -213,6 +212,7 @@
     border-bottom: solid 0.1px rgba(255, 123, 0, 0.571);
     padding-bottom: 50px;
     height: 600px;
+    width: 300px;
   }
 
   .titulo-tres {
@@ -574,14 +574,15 @@
     }
 
     .logo {
-      width: 40px;
+      width: 150px;
       padding-left: 10px;
+      padding-top: 10px;
     }
 
     .icones {
       display: flex;
       justify-content: right;
-      margin-top: -40px;
+      margin-top: -50px;
       padding-right: 10px;
     }
 
@@ -622,10 +623,12 @@
     }
 
     .texto-um {
-      font-size: 16px;
+      font-size: 14px;
       width: 100%;
       line-height: 1.2em;
       text-align: center;
+      padding-left: 20px;
+      padding-right: 20px;
     }
 
     .botoes {
@@ -638,8 +641,8 @@
 
     .bt-dois {
       border: solid 1px white;
-      padding: 20px;
-      width: 235px;
+      padding: 10px;
+      width: 200px;
       text-align: center;
       color: white;
       border-radius: 100px;
@@ -649,28 +652,35 @@
       animation: 3.5s ease-in infinite brilho;
     }
 
+    
+
     .bt-saiba-mais {
       display: none;
     }
 
     .img-principal {
-      background-repeat: no-repeat;
-      background-position: center;
-      width: 400px;
-      height: 400px;
+      text-align: center;
+      width: 100%;
+      height: auto;
+      text-align: center;
+      padding-left: 50px;
     }
 
     .section-dois {
       display: flex;
       align-items: center;
       text-align: center;
-      gap: 5px;
+      gap: 20px;
       justify-content: center;
       margin-top: 0;
       padding-top: 30px;
       width: 100%;
       margin-left: 0;
       padding-bottom: 30px;
+    }
+
+    .icone-dois {
+      width: 20px;
     }
 
     .section-tres {
@@ -680,6 +690,7 @@
       justify-content: center;
       padding-top: 100px;
       gap: 20px;
+      padding-left: 50px;
     }
 
     .texto-tres {
@@ -689,26 +700,23 @@
     }
 
     .img-section-tres {
-      width: 350px;
+      width: 320px;
       padding-top: 40px;
-      margin-left: 20px;
     }
 
     .titulo-tres {
       font-size: 28px;
-      margin-left: 10px;
+      margin-left: 5px;
     }
 
     .sub-titulo-tres {
       font-size: 18px;
-      margin-left: 10px;
     }
 
     .texto-principal-tres {
       font-size: 14px;
       line-height: 1.3em;
       max-width: 300px;
-      margin-left: 10px;
     }
 
     .clientes {
