@@ -6,6 +6,7 @@
     <title>Optimer</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body onresize="mudouTamanho()">
     <nav>
@@ -70,7 +71,7 @@
         </div>
     </div>
 
-    <div class="section-tres">
+    <div class="section-tres" data-aos="fade-up">
         <div class="texto-tres">
             <p class="titulo-tres">Conheça nossa <br> empresa!</p>
             <br><br>
@@ -87,7 +88,7 @@
         <img src="img-section-dois.png" alt="" class="img-section-tres">
     </div>
     
-    <div class="clientes">
+    <div class="clientes" data-aos="fade-right">
         <img src="clientes-laranja.png" alt="" width="100%">
     </div>
 
@@ -175,7 +176,7 @@
         </div>
     </div>
 
-    <div class="suporte">
+    <div class="suporte" data-aos="fade-right">
         <div class="card-suporte">
             <div class="texto-suporte">
                 <div>
@@ -191,7 +192,7 @@
         </div>
     </div>
 
-    <div class="sobre">
+    <div class="sobre" data-aos="fade-up">
         <div class="card-sobre">
             <div class="img-sobre">
                 <img src="iPhone 14 & 15 Pro Max - 1.png" alt="" class="img-iphone" >
@@ -220,7 +221,7 @@
         </div>
     </div>
 
-    <div class="blog">
+    <div class="blog" data-aos="fade-right">
         <div class="texto-blog">
             <p class="titulo-blog">Confira nosso blog</p>
             <a class="bt-blog" href="">Acessar blog</a>
@@ -272,7 +273,7 @@
         </div>
     </div>
 
-    <div class="contato">
+    <div class="contato" data-aos="fade-up">
         <p class="texto-contato">Fale conosco!</p>
         <div class="card-contato">
             <div class="form">
@@ -330,6 +331,13 @@
                 itens.style.display = 'block'
             }
         }
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+        });
     </script>
 
 
