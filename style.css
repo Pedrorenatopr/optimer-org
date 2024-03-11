@@ -161,7 +161,8 @@
     text-align: center;
     color: white;
     border-radius: 100px;
-    background-color: #EA6400;
+    background-image: linear-gradient(to right, #ff4b19d0, #E27815);
+
 
   }
 
