@@ -29,6 +29,10 @@
     color: white;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   .topo {
     position: fixed;
     bottom: 0;
