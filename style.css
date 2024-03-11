@@ -268,7 +268,8 @@
 
   .card-servico {
     border: solid 0.1px rgba(255, 123, 0, 0.571);
-    padding: 50px;    
+    padding: 50px;
+    height: 350px;
   }
 
 
@@ -774,7 +775,7 @@
       color: #CDCDCD;
       max-width: 350px;
       line-height: 1.5em;
-      font-size: 12px;
+      font-size: 14px;
     }
 
     .suporte {
