@@ -186,11 +186,6 @@
     
   }
 
-  .bt-saiba-mais :hover{
-    transform: scale(1.1);
-    transition-duration: .3s;
-  }
-
   .section-dois {
     display: flex;
     align-items: center;
@@ -212,11 +207,6 @@
     padding-top: 20px;
   }
 
-  
-  .section-dois :hover {
-    transform: scale(1.1);
-    transition-duration: .3s;
-  }
 
   .section-tres {
     display: flex;
