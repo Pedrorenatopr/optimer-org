@@ -992,6 +992,10 @@
   
     }
 
+    .footer-tres {
+      display: none;
+    }
+
     .texto-footer {
       font-size: 35px;
       font-weight: 200;
