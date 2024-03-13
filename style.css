@@ -251,6 +251,10 @@
 
   .clientes {
     padding-top: 200px;
+  }
+
+  .clientes-um {
+    padding-top: 150px;
     display: none;
   }
 
