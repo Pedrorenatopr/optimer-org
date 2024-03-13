@@ -207,6 +207,10 @@
     padding-top: 20px;
   }
 
+  .div-section-dois {
+    padding-top: 200px;
+  }
+
 
   .section-tres {
     display: flex;
@@ -247,6 +251,7 @@
 
   .clientes {
     padding-top: 200px;
+    display: none;
   }
 
   .titulo-servico-laranja {
@@ -307,7 +312,7 @@
   .suporte {
     display: flex;
     justify-content: center;
-    padding-top: 200px;
+    padding-top: 100px;
   }
 
   .texto-suporte {
@@ -359,7 +364,7 @@
   }
 
   .sobre {
-    padding-top: 200px;
+    padding-top: 100px;
   }
 
   .card-sobre {
@@ -718,6 +723,10 @@
       padding-bottom: 30px;
     }
 
+    .div-section-dois {
+      padding-top: 50px;
+    }
+
     .icone-dois {
       width: 20px;
     }
@@ -726,7 +735,7 @@
       display: block;
       align-items: center;
       justify-content: center;
-      padding-top: 100px;
+      padding-top: 80px;
       gap: 20px;
       padding-left: 50px;
     }
@@ -796,7 +805,7 @@
     
     .card-suporte {
       width: 380px;
-      margin-top: 100px;
+      margin-top: 80px;
       border-radius: 40px;
       background-image: linear-gradient(180deg, #ffb9901d, rgba(0, 0, 0, 0));
     }
@@ -835,7 +844,7 @@
     }
 
     .sobre {
-      padding-top: 50px;
+      padding-top: 0;
     }
 
     .card-sobre {
