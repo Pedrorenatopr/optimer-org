@@ -129,14 +129,16 @@
   .section-um {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding-left: 250px;
+    justify-content: center;
+    padding-left: 0;
+    gap: 300px;
   }
 
   .img-principal {
     background-repeat: no-repeat;
     background-position: right;
   }
+  
 
   .titulo-um {
     color: #FF6C19;
@@ -662,6 +664,7 @@
       align-items: center;
       padding-left: 0;
       padding-top: 80px;
+      gap: 0;
     }
 
     .titulo-um {
@@ -711,7 +714,7 @@
       width: 100%;
       height: auto;
       text-align: center;
-      padding-left: 50px;
+      padding-left: 20px;
     }
 
     .section-dois {
