@@ -821,7 +821,6 @@
     .suporte {
       display: grid;
       padding-top: 0px;
-      justify-content: center;
     }
     
     .card-suporte {
