@@ -804,6 +804,13 @@
       gap: 2em;
     }
 
+    .card-servico {
+      border: solid 0.1px rgba(255, 123, 0, 0.571);
+      padding: 20px;
+      height: 350px;
+      width: auto;
+    }
+
     .texto-servico {
       color: #CDCDCD;
       max-width: 350px;
