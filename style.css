@@ -224,6 +224,7 @@
     justify-content: center;
     padding-top: 200px;
     gap: 200px;
+    padding-left: 50px;
   }
 
   .texto-tres {
@@ -253,6 +254,8 @@
   }
 
   .img-section-tres {
+    padding-right: 0;
+    
   }
 
   .clientes {
@@ -274,6 +277,7 @@
 
   .legenda-servico-branco {
     text-align: center;
+    padding-top: 10px;
   }
 
   .servico {
@@ -760,8 +764,9 @@
     }
 
     .img-section-tres {
-      width: 320px;
+      width: 350px;
       padding-top: 40px;
+      padding-right: 50px;
     }
 
     .titulo-tres {
