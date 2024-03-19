@@ -212,6 +212,9 @@
 
   .div-section-dois {
     padding-top: 200px;
+    text-align: center;
+    display: grid;
+    justify-content: center;
   }
 
 
@@ -271,7 +274,6 @@
 
   .legenda-servico-branco {
     text-align: center;
-
   }
 
   .servico {
@@ -281,13 +283,14 @@
     text-align: center;
     padding-top: 100px;
     grid-template-columns: 20% 20% 20%;
-    gap: 100px;
+    gap: 150px;
   }
 
   .card-servico {
     border: solid 0.1px rgba(255, 123, 0, 0.571);
-    padding: 50px;
+    padding: 20px;
     height: 350px;
+    width: 400px;
   }
 
 
@@ -296,6 +299,7 @@
     margin-bottom: 1em;
     background-color: #ffffff;
     border-radius: 100%;
+    margin-top: 30px;
   }
 
   .titulo-servico {
