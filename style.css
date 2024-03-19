@@ -790,8 +790,8 @@
     
     .legenda-servico-branco {
       text-align: center;
-      margin-top: -20px;
       font-size: 12px;
+      padding-top: 10px;
     }
 
     .servico {
