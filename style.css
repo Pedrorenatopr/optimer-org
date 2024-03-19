@@ -1027,6 +1027,7 @@
     }
 
     .footer-tres {
+      display: grid;
     }
 
     .texto-footer {
