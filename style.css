@@ -745,7 +745,7 @@
     }
 
     .section-tres {
-      display: block;
+      display: grid;
       align-items: center;
       justify-content: center;
       padding-top: 80px;
@@ -821,6 +821,7 @@
     .suporte {
       display: grid;
       padding-top: 0px;
+      justify-content: center;
     }
     
     .card-suporte {
