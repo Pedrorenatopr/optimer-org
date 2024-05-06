@@ -69,8 +69,8 @@
     border-bottom: solid 0.1px rgba(255, 123, 0, 0.256);
     border-image: linear-gradient(to right, transparent, #E27815, transparent) 1;
     padding-bottom: 50px;
-    width: 80%;
-    margin-left: 100px;
+    flex-wrap: nowrap;
+    width: 100%;
   }
 
   .bt-um :hover {
@@ -80,8 +80,7 @@
 
   .bt-um {
     border: solid 1px white;
-    padding: 15px;
-    width: 235px;
+    padding: 15px 25px 15px 25px;
     text-align: center;
     color: white;
     border-radius: 100px;
@@ -118,6 +117,7 @@
 
   .menu-lista {
     display: flex;
+    flex-wrap: nowrap;
   }
 
   .linha {
@@ -131,8 +131,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 0;
-    gap: 100px;
+    padding-left: 50px;
+    gap: 0px;
   }
 
   .img-principal {
@@ -148,6 +148,7 @@
   .titulo-um {
     color: #FF6C19;
     cursor: pointer;
+    width: 550px;
   }
 
   .texto-card {
@@ -160,7 +161,7 @@
 
   .texto-um {
     font-size: 18px;
-    max-width: 600px;
+    max-width: 450px;
     line-height: 1.5em;
     color: #CDCDCD;
   }
@@ -168,7 +169,7 @@
   .botoes {
     display: flex;
     gap: 1em;
-    
+    align-items: center;
   }
 
   .bt-dois :hover{
@@ -184,13 +185,19 @@
     color: white;
     border-radius: 100px;
     background-image: linear-gradient(to right, #ff4b19d0, #E27815);
-
-
   }
 
-  .bt-saiba-mais {
-
-    
+  .bt-fale-conosco {
+    border: solid 1px white;
+    padding: 15px;
+    width: 235px;
+    text-align: center;
+    color: white;
+    border-radius: 100px;
+    background: linear-gradient(45deg, #20516600, #91ADBA, #20516600, #91ADBA);
+    background-size: 400% 200%;
+    transition: background 1.5s cubic-bezier(0.5, 0.1, 0.4, 0.9);
+    padding: 1.2em;
   }
 
   .section-dois {
@@ -204,8 +211,7 @@
     border-top: solid 0.1px rgba(255, 123, 0, 0.343);
     margin-top: 0;
     padding-top: 30px;
-    width: 80%;
-    margin-left: 100px;
+    margin-left: 0;
     padding-bottom: 30px;
   }
 
@@ -279,19 +285,17 @@
     font-size: 60px;
   }
 
-  .legenda-servico-branco {
-    text-align: center;
-    padding-top: 10px;
-  }
+
 
   .servico {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding-top: 100px;
-    grid-template-columns: 20% 20% 20%;
-    gap: 150px;
+    gap: 0px;
+    max-width: 1200px;
   }
 
   .card-servico {
@@ -685,6 +689,7 @@
       font-size: 28px;
       font-weight: 600;
       text-align: center;
+      width: 100%;
     }
 
     .texto-um {
@@ -692,8 +697,7 @@
       width: 100%;
       line-height: 1.2em;
       text-align: center;
-      padding-left: 20px;
-      padding-right: 20px;
+      padding: 0px 30px 0px 30px;
     }
 
     .botoes {
@@ -704,10 +708,14 @@
       text-align: center;
     }
 
+    .bt-fale-conosco {
+      display: none;
+    }
+
     .bt-dois {
       border: solid 1px white;
       padding: 10px;
-      width: 200px;
+      width: 300px;
       text-align: center;
       color: white;
       border-radius: 100px;
