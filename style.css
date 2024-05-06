@@ -564,25 +564,33 @@
     padding-top: 1em;
   }
 
+  .box-contato {
+    margin-left: 400px;
+    margin-right: 400px;
+    display: flex;
+    justify-content: center;
+  }
+
   .contato {
     padding-top: 200px;
-
   }
 
   .texto-contato {
-    padding-left: 380px;
+    margin-left: -50px;
     color: #EA6400;
     font-size: 48px;
     font-weight: 600;
-    padding-left: 370px;
     line-height: 2em;
   }
 
   .card-contato {
     display: flex;
     justify-content: center;
-    gap: 380px;
+    gap: 400px;
     padding-top: 1em;
+    max-width: 1000px;
+    padding-left: 400px;
+    padding-right: 400px;
   }
 
   footer {
@@ -1029,10 +1037,18 @@
       padding-top: 150px;
   
     }
+
+    .box-contato {
+      margin-left: 0;
+      margin-right: 0;
+      display: grid;
+      justify-content: center;
+    }
+
   
     .texto-contato {
       font-size: 32px;
-      padding-left: 20px;
+      padding-left: 50px;
     }
   
     .card-contato {
@@ -1040,7 +1056,18 @@
       justify-content: center;
       gap: 50px;
       padding-top: 1em;
+      text-align: center;
+      max-width: 1000px;
+      padding-left: 0;
+      padding-right: 0;
     }
+
+    .box-teste {
+      display: flex;
+      justify-content: center;
+      align-self: center;
+    }
+
 
     .mapa {
       padding-left: 10px;
