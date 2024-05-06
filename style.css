@@ -79,6 +79,9 @@
   }
 
   .bt-um {
+    display: block;
+    flex-wrap: nowrap;
+    width: 250px;
     border: solid 1px white;
     padding: 15px 25px 15px 25px;
     text-align: center;
@@ -179,7 +182,7 @@
 
   .bt-dois {
     border: solid 1px white;
-    padding: 20px;
+    padding: 1em;
     width: 235px;
     text-align: center;
     color: white;
@@ -189,7 +192,7 @@
 
   .bt-fale-conosco {
     border: solid 1px white;
-    padding: 15px;
+    padding: 1em;
     width: 235px;
     text-align: center;
     color: white;
@@ -197,7 +200,6 @@
     background: linear-gradient(45deg, #20516600, #91ADBA, #20516600, #91ADBA);
     background-size: 400% 200%;
     transition: background 1.5s cubic-bezier(0.5, 0.1, 0.4, 0.9);
-    padding: 1.2em;
   }
 
   .section-dois {
@@ -248,7 +250,7 @@
   .titulo-tres {
     font-weight: 600;
     font-size: 40px;
-    margin-left: -80px;
+    margin-left: -30px;
   }
 
   .sub-titulo-tres {
