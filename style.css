@@ -279,12 +279,42 @@
     display: none;
   }
 
+  .box-servicos {
+  }
+
   .titulo-servico-laranja {
     color: #FF6C19;
     font-weight: 600;
     text-align: center;
     padding-top: 50px;
     font-size: 60px;
+    max-width: 1000px;
+  }
+
+  .box-titulo-problemas {
+    display: flex;
+    justify-content: center;
+  }
+
+  .box-bt-problemas {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .bt-problemas {
+    margin-top: 40px;
+    display: block;
+    border: solid 1px white;
+    padding: 1em;
+    width: 600px;
+    text-align: center;
+    color: white;
+    border-radius: 100px;
+    background: linear-gradient(45deg, #ff191900, #E27815, #f94a3300, #E27815);
+    background-size: 400% 200%;
+    transition: background 1.5s cubic-bezier(0.5, 0.1, 0.4, 0.9);
+    animation: 3.5s ease-in infinite brilho;
   }
 
 
@@ -314,6 +344,14 @@
     background-color: #ffffff;
     border-radius: 100%;
     margin-top: 30px;
+  }
+
+  .img-servico2 {
+    padding: 2px;
+    margin-bottom: 1em;
+    border-radius: 100%;
+    margin-top: 30px;
+
   }
 
   .titulo-servico {
@@ -826,9 +864,18 @@
       padding-top: 50px;
     }
 
+    .bt-problemas {
+      width: 300px;
+      margin-bottom: 80px;
+    }
+
     .titulo-servico-laranja {
       padding-top: 50px;
       font-size: 28px;
+    }
+
+    .titulo-servico {
+      max-width: 350px;
     }
     
     .legenda-servico-branco {
